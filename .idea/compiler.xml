@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.34/ec547ef414ab1d2c040118fb9c1c265ada63af14/lombok-1.18.34.jar" />
+        </processorPath>
+        <module name="cash-friends.cash.test" />
+        <module name="cash-friends.scheduler.main" />
+        <module name="cash-friends.friends.main" />
+        <module name="cash-friends.test" />
+        <module name="cash-friends.cash.main" />
+        <module name="cash-friends.scheduler.test" />
+        <module name="cash-friends.main" />
+        <module name="cash-friends.friends.test" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17">
+      <module name="cash" target="17" />
+      <module name="cash.main" target="17" />
+      <module name="cash.test" target="17" />
+      <module name="friends" target="17" />
+      <module name="friends.main" target="17" />
+      <module name="friends.test" target="17" />
+      <module name="publisher" target="1.8" />
+      <module name="publisher.main" target="1.8" />
+      <module name="publisher.test" target="1.8" />
+      <module name="subscriber" target="1.8" />
+      <module name="subscriber.main" target="1.8" />
+      <module name="subscriber.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
