@@ -17,6 +17,7 @@ import java.time.LocalDateTime;
 @Entity
 public class TransferMessage {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
     private String userId;

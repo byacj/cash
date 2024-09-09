@@ -53,7 +53,7 @@ public class TransferMessageService {
             transferMessageHistory.setTransferMessageId(transferMessage.getId());
             transferMessageHistory.setPeriod(180);
             transferMessageHistory.setProceedEndDate(LocalDate.now());
-            transferMessageHistory.setType(TransferType.PAYMENT);
+            transferMessageHistory.setType(TransferType.PAYMENT_INITIAL);
             transferMessageHistory.setStatus(TransferStatus.REQUEST);
             transferMessageHistory.setCreatedAt(LocalDateTime.now());
             transferMessageHistory.setCreatedBy(CashConstants.SYSTEM);

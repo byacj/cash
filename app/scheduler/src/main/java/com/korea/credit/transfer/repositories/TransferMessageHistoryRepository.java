@@ -16,5 +16,5 @@ import java.util.Optional;
  */
 @Repository
 public interface TransferMessageHistoryRepository extends JpaRepository<TransferMessageHistory, Long> {
-    List<TransferMessageHistory> findByTypeInAndStatus(List<TransferType> types, TransferStatus status);
+    List<TransferMessageHistory> findByTypeInAndStatusAndProceedEndDateBefore(List<TransferType> types, TransferStatus status, LocalDate localDate);
 }

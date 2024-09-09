@@ -2,7 +2,6 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
@@ -18,19 +17,6 @@
         <module name="cash-friends.friends.test" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="17">
-      <module name="cash" target="17" />
-      <module name="cash.main" target="17" />
-      <module name="cash.test" target="17" />
-      <module name="friends" target="17" />
-      <module name="friends.main" target="17" />
-      <module name="friends.test" target="17" />
-      <module name="publisher" target="1.8" />
-      <module name="publisher.main" target="1.8" />
-      <module name="publisher.test" target="1.8" />
-      <module name="subscriber" target="1.8" />
-      <module name="subscriber.main" target="1.8" />
-      <module name="subscriber.test" target="1.8" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="17" />
   </component>
 </project>

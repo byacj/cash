@@ -17,7 +17,7 @@ DROP TABLE IF EXISTS payment_detail;
 CREATE TABLE payment_detail (
     id    bigint   auto_increment primary key,
     user_id   VARCHAR(20)    NOT NULL,
-    mallNo   bigint    NOT NULL,
+    mall_no   bigint    NOT NULL,
     status   VARCHAR(30)    NOT NULL,
     payment_at   DATETIME    NOT NULL,
     card_corporation   VARCHAR(30)    NOT NULL,
@@ -31,7 +31,7 @@ CREATE TABLE payment_detail (
     updated_at   DATETIME    NOT NULL,
     updated_by   VARCHAR(30)    NOT NULL
 );
-CREATE INDEX idx_user_id_mall_no_payment_at on payment_detail (user_id, mallNo, payment_at);
+CREATE INDEX idx_user_id_mall_no_payment_at on payment_detail (user_id, mall_no, payment_at);
 
 -- 약관 동의
 DROP TABLE IF EXISTS user_terms_of_use;

@@ -1,10 +1,12 @@
 package com.korea.credit.payment.service;
 
-import com.korea.credit.payment.model.PaymentDetail;
+import com.korea.credit.payment.entities.PaymentDetail;
+import com.korea.credit.payment.model.PaymentMessage;
 import com.korea.credit.payment.repository.PaymentDetailRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.LinkedHashMap;
 import java.util.List;
 
 /**
@@ -16,10 +18,8 @@ import java.util.List;
 public class PaymentDetailService {
     private final PaymentDetailRepository paymentDetailRepository;
 
-    public void registerPaymentDetail(List<PaymentDetail> paymentDetails) {
-        paymentDetails.stream().map(PaymentDetail::toEntity).forEach(
-                paymentDetailRepository::save
-        );
+    public void registerPaymentDetail(List<LinkedHashMap<String, Object>> paymentMessages) {
+        paymentMessages.stream().map(PaymentDetail::fromMap).forEach(paymentDetailRepository::save);
     }
 
 }

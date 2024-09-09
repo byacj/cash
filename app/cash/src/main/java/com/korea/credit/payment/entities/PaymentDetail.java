@@ -19,6 +19,7 @@ import java.time.LocalDateTime;
 @Getter
 public class PaymentDetail {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
     private String userId;

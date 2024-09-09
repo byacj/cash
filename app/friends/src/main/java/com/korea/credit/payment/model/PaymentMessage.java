@@ -1,8 +1,8 @@
 package com.korea.credit.payment.model;
 
+import com.korea.credit.FriendsUtils;
 import com.korea.credit.payment.enums.CardCorporation;
 import com.korea.credit.payment.enums.PaymentDetailStatus;
-import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
  */
 @Setter
 @Getter
-public class PaymentDetail {
+public class PaymentMessage {
     private long id;
 
     private String userId;
@@ -24,7 +24,7 @@ public class PaymentDetail {
 
     private PaymentDetailStatus status;
 
-    private LocalDateTime paymentAt;
+    private String paymentAt;
 
     private CardCorporation cardCorporation;
 
@@ -53,7 +53,7 @@ public class PaymentDetail {
         entity.setUserId(this.userId);
         entity.setMallNo(this.mallNo);
         entity.setStatus(this.status);
-        entity.setPaymentAt(this.paymentAt);
+        entity.setPaymentAt(FriendsUtils.stringToLocalDateTime(this.paymentAt));
         entity.setCardCorporation(this.cardCorporation);
         entity.setPartnershipCardCorporation(this.partnershipCardCorporation);
         entity.setCardNo(this.cardNo);
