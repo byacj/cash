@@ -5,39 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db17cef2-3bdb-4b0b-ac53-1128923cd359" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cash/out/production/classes/com/korea/credit/payment/entities/PaymentDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/cash/out/production/classes/com/korea/credit/payment/entities/PaymentDetail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cash/out/production/classes/com/korea/credit/transfer/entities/TransferMessage.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/cash/out/production/classes/com/korea/credit/transfer/entities/TransferMessage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cash/out/production/classes/com/korea/credit/transfer/entities/TransferMessageHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/cash/out/production/classes/com/korea/credit/transfer/entities/TransferMessageHistory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cash/out/production/classes/com/korea/credit/transfer/service/TransferMessageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/cash/out/production/classes/com/korea/credit/transfer/service/TransferMessageService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cash/out/production/classes/com/korea/credit/user/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/cash/out/production/classes/com/korea/credit/user/entities/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cash/out/production/classes/com/korea/credit/user/entities/UserTermsOfUse.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/cash/out/production/classes/com/korea/credit/user/entities/UserTermsOfUse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cash/out/production/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/cash/out/production/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cash/out/production/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/cash/out/production/resources/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cash/src/main/java/com/korea/credit/payment/entities/PaymentDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/cash/src/main/java/com/korea/credit/payment/entities/PaymentDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cash/src/main/java/com/korea/credit/transfer/entities/TransferMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/cash/src/main/java/com/korea/credit/transfer/entities/TransferMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cash/src/main/java/com/korea/credit/transfer/entities/TransferMessageHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/cash/src/main/java/com/korea/credit/transfer/entities/TransferMessageHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cash/src/main/java/com/korea/credit/transfer/service/TransferMessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/cash/src/main/java/com/korea/credit/transfer/service/TransferMessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cash/src/main/java/com/korea/credit/user/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/cash/src/main/java/com/korea/credit/user/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cash/src/main/java/com/korea/credit/user/entities/UserTermsOfUse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/cash/src/main/java/com/korea/credit/user/entities/UserTermsOfUse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cash/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/cash/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/cash/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/cash/src/main/resources/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/friends/src/main/java/com/korea/credit/payment/entities/PaymentDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/friends/src/main/java/com/korea/credit/payment/entities/PaymentDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/friends/src/main/java/com/korea/credit/payment/listeners/PaymentSubscriber.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/friends/src/main/java/com/korea/credit/payment/listeners/PaymentSubscriber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/friends/src/main/java/com/korea/credit/payment/model/PaymentDetail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/friends/src/main/java/com/korea/credit/payment/service/PaymentDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/friends/src/main/java/com/korea/credit/payment/service/PaymentDetailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/friends/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/friends/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/friends/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/friends/src/main/resources/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scheduler/out/production/classes/com/korea/credit/payment/entities/PaymentDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/scheduler/out/production/classes/com/korea/credit/payment/entities/PaymentDetail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scheduler/out/production/classes/com/korea/credit/payment/service/PaymentDetailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/scheduler/out/production/classes/com/korea/credit/payment/service/PaymentDetailService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scheduler/out/production/classes/com/korea/credit/transfer/entities/TransferMessageHistory.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/scheduler/out/production/classes/com/korea/credit/transfer/entities/TransferMessageHistory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scheduler/out/production/classes/com/korea/credit/transfer/repositories/TransferMessageHistoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/scheduler/out/production/classes/com/korea/credit/transfer/repositories/TransferMessageHistoryRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scheduler/src/main/java/com/korea/credit/payment/entities/PaymentDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/scheduler/src/main/java/com/korea/credit/payment/entities/PaymentDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scheduler/src/main/java/com/korea/credit/payment/service/PaymentDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/scheduler/src/main/java/com/korea/credit/payment/service/PaymentDetailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scheduler/src/main/java/com/korea/credit/transfer/entities/TransferMessageHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/scheduler/src/main/java/com/korea/credit/transfer/entities/TransferMessageHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scheduler/src/main/java/com/korea/credit/transfer/repositories/TransferMessageHistoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/scheduler/src/main/java/com/korea/credit/transfer/repositories/TransferMessageHistoryRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,9 +45,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -105,7 +74,7 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/sungjun/IdeaProjects/cash/build.gradle",
+    "last_opened_file_path": "/Users/sungjun/IdeaProjects/cash",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -177,10 +146,43 @@
       <workItem from="1725350017151" duration="376000" />
       <workItem from="1725361584751" duration="3319000" />
       <workItem from="1725781197122" duration="609000" />
+      <workItem from="1725893771296" duration="589000" />
     </task>
+    <task id="LOCAL-00001" summary="리드미 수정 반영">
+      <option name="closed" value="true" />
+      <created>1725893824176</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725893824176</updated>
+    </task>
+    <task id="LOCAL-00002" summary="리드미 수정 반영">
+      <option name="closed" value="true" />
+      <created>1725893832714</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725893832714</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="리드미 수정 반영" />
+    <option name="LAST_COMMIT_MESSAGE" value="리드미 수정 반영" />
   </component>
 </project>

@@ -19,6 +19,19 @@ KCD의 관계사 서버라고 가정하고 작업했습니다. 결제내역을 �
 CASH NOTE의 결제 정보를 Friends에 전달하는 역할을 합니다. 데이터 전송 작업이 부하가 큰 작업일 수 있다고 생각했습니다. 전송 작업이 CASH NOTE 서비스에 영향을 미치지 않게 전송 작업을 전담하는 서버를 별도로 두었습니다. 
 </p>
 
+<h2> 프로젝트 구동 </h2>
+<p>
+CASH 서버 : CASH서버와 SCHEDULER가 사용하는 H2 인베디드 DB와 DB의 스키마 설정을 포함합니다. <br>
+SCHEDULER : ActiveMQ 브로커 설정이 포함되어 있습니다. <br>
+Friends 서버 : Friends 서버가 사용하는 H2 인베디드 DB와 DB 스키마 설정이 포함되어 있습니다.
+</p>
+<p>
+각 서버간 종속 관계가 있습니다. <br>
+CASH 서버의 DB정보를 SCHEDULER가 사용합니다. Friends서버는 서버 구동시에 SCHEDULER의 ActiveMQ 브로커 연결을 시도합니다. <br>
+각 서버들의 의존성이 있기 때문에 서버의 구동은 <b>cash > scheduler > friends 순</b>으로 구동 되어야 합니다.
+</p>
+
+
 
 <h2> 기능 </h2>
 <h3>1. 간편연결 등록 </h3>
