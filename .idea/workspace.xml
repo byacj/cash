@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db17cef2-3bdb-4b0b-ac53-1128923cd359" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,7 +145,7 @@
       <workItem from="1725350017151" duration="376000" />
       <workItem from="1725361584751" duration="3319000" />
       <workItem from="1725781197122" duration="609000" />
-      <workItem from="1725893771296" duration="589000" />
+      <workItem from="1725893771296" duration="1212000" />
     </task>
     <task id="LOCAL-00001" summary="리드미 수정 반영">
       <option name="closed" value="true" />
@@ -164,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725893832714</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="리드미 추가 수정">
+      <option name="closed" value="true" />
+      <created>1725894384451</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725894384451</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +190,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="리드미 수정 반영" />
-    <option name="LAST_COMMIT_MESSAGE" value="리드미 수정 반영" />
+    <MESSAGE value="리드미" />
+    <MESSAGE value="리드미 추가 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="리드미 추가 수정" />
   </component>
 </project>
